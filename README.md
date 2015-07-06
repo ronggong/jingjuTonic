@@ -4,7 +4,7 @@ tonic identification for Jingju erhuang and xipi
 
 import jingjuTonicEstimator as tonic
 
-filename = './01 白蛇传：青妹慢举龙泉宝剑.mp3' # erhuang
+filename = './01 白蛇传：青妹慢举龙泉宝剑.mp3' # erhuang  
 tonic.jingjuTonic(filename, modelName = 'erhuang', outputfilename = 'output_pitchtrack.txt', savePitchtrack = False)
 
 ## specification
